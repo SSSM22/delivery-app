@@ -7,6 +7,7 @@
     <meta name="description" content="Let's Vanish the cravings of pizza and burger...!!">
     <title>Viggy</title>
     <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="shortcut icon" href="./src/assets/favicon.png" type="image/x-icon">
   </head>
   <body>
     <div id="root">
@@ -15,37 +16,39 @@
           <h1>Viggy</h1>
           <ul class="navbar">
             <li>
-              <a href="http://" target="_self" rel="noopener noreferrer"
+              <a href="#" target="_self" rel="noopener noreferrer"
                 >Menu</a
               >
             </li>
             <li>
-              <a href="http://" target="_self" rel="noopener noreferrer"
+              <a href="#" target="_self" rel="noopener noreferrer"
                 >Services</a
               >
             </li>
             <li>
-              <a href="http://" target="_self" rel="noopener noreferrer"
+              <a href="#" target="_self" rel="noopener noreferrer"
                 >About</a
               >
             </li>
             <li>
-              <a href="http://" target="_self" rel="noopener noreferrer"
+              <a href="#" target="_self" rel="noopener noreferrer"
                 >Contact</a
               >
             </li>
           </ul>
         </div>
         <div class="right">
-          <button type="button">Login</button>
-          <button type="button">SignUp</button>
+          <button type="button" class="login">Login</button>
+          <button type="button" class="login">SignUp</button>
+          <button class="header-cart" type="button"><img src="./src/assets/header-cart.svg" alt="" srcset=""></button>
+          </div>
         </div>
       </nav>
       <!-- ... -->
       <section class="header">
         <div class="image-container">
           <img src="src/assets/burger.jpg" alt="pizza-burger" />
-          <div class="box">
+          <div class="header-box">
             <div class="content">
               <h2>Delicious Pizzas and Burgers for College Events</h2>
               <p>
@@ -53,7 +56,7 @@
                 and amazing performances!
               </p>
               <div class="header-buttons">
-                <button type="button">Order Now</button>
+                <button type="button" class="login">Order Now</button>
               </div>
             </div>
           </div>
@@ -63,75 +66,185 @@
       <section class="chill">
         <h3>Let's Chill😋</h3>
         <div class="food-flex">
+            
           <div class="flex">
             <img src="./src/assets/1.png" alt="pizza" srcset="" />
-            <p>Chicken Pizza</p>
-            <p class="price">₹200.00</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Chicken Pizza</p>
+                <p class="price">₹200.00</p>
+              </div>
+              <div class="cart">
+                <button type="button" class = "cardBtn"><img src="./src/assets/cart.svg" alt="" srcset=""></button>
+              </div>
+            </div>
+            
           </div>
           <div class="flex">
             <img src="./src/assets/2.png" alt="pizza" srcset="" />
-            <p>Margherita</p>
-            <p class="price">₹180.00</p>
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Margherita</p>
+                <p class="price">₹180.00</p>
+              </div>
+              <div class="cart">
+                <button type="button" class = "cardBtn"><img src="./src/assets/cart.svg" alt="" srcset="">
+                </button>              </div>
+            </div>
           </div>
           <div class="flex">
             <img src="./src/assets/3.png" alt="pizza" srcset="" />
-            <p>Paneer Tikka Pizza</p>
-            <p class="price">₹200.00</p>
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Paneer Tikka Pizza</p>
+                <p class="price">₹200.00</p>
+              </div>
+              <div class="cart">
+                <button type="button" class = "cardBtn"><img src="./src/assets/cart.svg" alt="" srcset=""></button>
+              </div>
+            </div>
           </div>
           <div class="flex">
             <img src="./src/assets/4.png" alt="pizza" srcset="" />
-            <p>Chicken Burger</p>
+            
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Chicken Burger</p>
             <p class="price">₹140.00</p>
+              </div>
+              <div class="cart">
+                <button type="button" class = "cardBtn"><img src="./src/assets/cart.svg" alt="" srcset=""></button>
+              </div>
+            </div>
           </div>
           <div class="flex">
             <img src="./src/assets/5.png" alt="pizza" srcset="" />
-            <p>Veg Popular</p>
-            <p class="price">₹130.00</p>
+
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Veg Popular Pizza</p>
+                <p class="price">₹130.00</p>
+              </div>
+              <div class="cart">
+               <button type="button" class = "cardBtn"> <img src="./src/assets/cart.svg" alt="" srcset=""></button>
+              </div>
+            </div>
           </div>
           <div class="flex">
             <img src="./src/assets/6.png" alt="pizza" srcset="" />
-            <p>Salted Fries</p>
+            
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Salted Fries</p>
             <p class="price">₹100.00</p>
+              </div>
+              <div class="cart">
+                <button type="button" class = "cardBtn"><img src="./src/assets/cart.svg" alt="" srcset=""></button>
+              </div>
+            </div>
           </div>
           <div class="flex">
             <img src="./src/assets/7.png" alt="pizza" srcset="" />
-            <p>Peri Peri Fries</p>
+            
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Peri Peri Fries</p>
             <p class="price">₹110.00</p>
+              </div>
+              <div class="cart">
+               <button type="button" class = "cardBtn"> <img src="./src/assets/cart.svg" alt="" srcset=""></button>
+              </div>
+            </div>
           </div>
           <div class="flex">
             <img src="./src/assets/8.png" alt="pizza" srcset="" />
-            <p>Chicken Loaded Cheese Fries</p>
+            
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Chicken Loaded Cheese Fries</p>
             <p class="price">₹180.00</p>
+              </div>
+              <div class="cart">
+                <button type="button" class = "cardBtn"><img src="./src/assets/cart.svg" alt="" srcset=""></button>
+              </div>
+            </div>
           </div>
           <div class="flex">
             <img src="./src/assets/9.png" alt="pizza" srcset="" />
-            <p>Chicken Strips Supreme (4pcs)</p>
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Chicken Strips Supreme (4pcs)</p>
             <p class="price">₹120.00</p>
+              </div>
+              <div class="cart">
+                <button type="button" class = "cardBtn"><img src="./src/assets/cart.svg" alt="" srcset=""></button>
+              </div>
+            </div>
           </div>
         </div>
         <h3>Combos😍</h3>
         <div class="food-flex">
+
           <div class="flex">
             <img src="./src/assets/11.png" alt="pizza" srcset="" />
-            <p>Backlog Combo</p>
+            
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Backlog Combo</p>
             <p id="descp">Chicken/Paneer Pizza + Fries + Coke</p>
             <p class="price">₹320.00</p>
+              </div>
+              <div class="cart">
+              <button type="button" class = "cardBtn">  <img src="./src/assets/cart.svg" alt="" srcset=""></button>
+              </div>
+            </div>
           </div>
           <div class="flex">
             <img src="./src/assets/12.png" alt="pizza" srcset="" />
-            <p>Bunk Combo</p>
-            <p id="descp">Chicken/Veg Burger + Fries + Coke</p>
-            <p class="price">₹270.00</p>
+           
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>Bunk Combo</p>
+                <p id="descp">Chicken/Veg Burger + Fries + Coke</p>
+                <p class="price">₹270.00</p>
+              </div> 
+              <div class="cart">
+               <button class = "cardBtn">
+                <img src="./src/assets/cart.svg" alt="" srcset="">
+               </button>
+              </div>
+            </div>
             
           </div>
           <div class="flex">
             <img src="./src/assets/13.png" alt="pizza" srcset="" />
-            <p>STRESS COMBO</p>
-            <p id="descp">Strips Supreme + Chicken cluckers</p>
-            <p class="price">₹210.00</p>
+            
+            <div class="cart-flex">
+              <div class="item-price">
+                <p>STRESS COMBO</p>
+                <p id="descp">Strips Supreme + Chicken cluckers</p>
+                <p class="price">₹210.00</p>
+              </div>
+              <div class="cart">
+                <button type="button" class="cardBtn"><img src="./src/assets/cart.svg" alt="" srcset=""></button>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="cart-container ">
+          <div class="sidebar">
+            <div class="head">
+              <p>My Cart</p>
+              <i class="fa-solid fa-bars" id="hamburger"></i>
+            </div>
+         <div id="root-cart"></div>
+            <div id="cartItem">Your cart is empty🥲</div>
+            <div class="foot">
+              <h5>Total</h5>
+              <h4 id="total">₹0.00</h4>
+            </div>
+          </div>
+          
       </section>
       <section class="services">
         <h3>Services</h3>
@@ -155,5 +268,7 @@
       </footer>
 
     <script type="module" src="/src/main.jsx"></script>
+    <script src="src/script.js"></script>
+    <script src="https://kit.fontawesome.com/03922df183.js" crossorigin="anonymous"></script>
   </body>
 </html>
